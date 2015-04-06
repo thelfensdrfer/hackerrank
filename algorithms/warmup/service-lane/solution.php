@@ -1,6 +1,6 @@
 <?php
 
-$fp = fopen("php://stdin", "r");
+$fp = fopen('php://stdin', 'r');
 
 $options = explode(' ', fgets($fp));
 

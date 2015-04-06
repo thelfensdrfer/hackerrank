@@ -1,6 +1,6 @@
 <?php
 
-$fp = fopen("php://stdin", "r");
+$fp = fopen('php://stdin', 'r');
 
 $low = (int) fgets($fp);
 $high = (int) fgets($fp);

@@ -1,6 +1,6 @@
 <?php
 
-$fp = fopen("php://stdin", "r");
+$fp = fopen('php://stdin', 'r');
 
 $lines = (int) fgets($fp); // 1 <= $lines <= 10
 
